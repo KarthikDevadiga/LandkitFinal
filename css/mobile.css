@@ -1,0 +1,146 @@
+.nav {
+  margin-bottom: 2rem;
+}
+
+.ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ul__item {
+  margin: .5rem;
+}
+
+.ul__link {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.logo {
+  margin: 1rem 0;
+}
+
+.btn {
+  margin: 0;
+  margin-left: auto;
+}
+
+.main {
+  margin: 0;
+  padding: .6rem;
+}
+
+.about {
+  width: 100%;
+  padding: 0;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.about__box-2 {
+  margin: 0;
+}
+
+.about__img {
+  width: 100%;
+}
+
+.about__container-2 {
+  margin: 0;
+}
+
+.about__form-box {
+  padding: .2rem;
+  background-color: #fff;
+}
+
+.about__box-1 {
+  margin-right: 0rem;
+}
+
+.about__last-ul {
+  margin-bottom: 1rem;
+}
+
+.about__item-2::before {
+  content: "";
+  margin-right: .5rem;
+  display: inline-block;
+  background-color: #42ba96;
+  width: 1rem;
+  height: 1rem;
+  -webkit-mask-image: url(../images/SVG/checkmark-outline.svg);
+  -webkit-mask-size: cover;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+}
+
+.bottom {
+  width: 100%;
+}
+
+.bottom__about {
+  padding: 1rem;
+}
+
+.bottom__container-mini {
+  padding: 1rem;
+}
+
+.bottom__box-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: .5rem;
+}
+
+.creative__holder {
+  padding-top: 3rem;
+}
+
+.creative__gaint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+  margin-right: 0;
+  padding-bottom: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.creative__card1 {
+  margin-top: .5rem;
+}
+
+.creative__card2 {
+  margin: .5rem;
+  border-radius: 10px 10px 20px 20px;
+}
+
+.creative__phra {
+  padding: 0;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer__container {
+  width: 100%;
+}
+/*# sourceMappingURL=mobile.css.map */
